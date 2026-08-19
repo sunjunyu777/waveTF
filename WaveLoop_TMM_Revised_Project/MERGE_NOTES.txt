@@ -1,9 +1,0 @@
-WaveLoop TMM merged revision
-
-1. The manuscript title and all major sections have been updated to remove unsupported frame-recurrent and historical-density-propagation claims.
-2. Transfer Learning is retained as the subsection title, as requested.
-3. The DSE text follows the existing full-feature cosine-similarity and affine-mapping implementation; the branch-increment variant was not inserted because it requires a code change and new ablation.
-4. The DGFA text follows the existing sigmoid temperature and learnable attention-scale implementation; bounded-temperature/softplus variants were not inserted.
-5. No unverified numerical results or [TO BE FILLED] placeholders were added.
-6. refs.bib has been replaced by the normalized TMM-style bibliography; refs_original.bib preserves the source version.
-7. The project should still be checked against the actual code for DWT normalization, encoder weight sharing, density-target resizing, training sequence construction, batch size, crop size, epoch schedule, and latency protocol before submission.
